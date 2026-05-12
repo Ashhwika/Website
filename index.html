@@ -52,5 +52,34 @@
     <p>&copy; 2025 Soni. All Rights Reserved.</p>
   </footer>
 
+  <!-- JS -->
+<script>
+function toggleMenu() {
+  const navLinks = document.getElementById('navLinks');
+  const hamburger = document.querySelector('.hamburger');
+  
+  navLinks.classList.toggle('active');
+  hamburger.classList.toggle('active');
+}
+
+function closeMenu() {
+  const navLinks = document.getElementById('navLinks');
+  const hamburger = document.querySelector('.hamburger');
+  
+  navLinks.classList.remove('active');
+  hamburger.classList.remove('active');
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', function(event) {
+  const navbar = document.querySelector('.navbar');
+  const navLinks = document.getElementById('navLinks');
+  
+  if (!navbar.contains(event.target)) {
+    navLinks.classList.remove('active');
+    document.querySelector('.hamburger').classList.remove('active');
+  }
+});
+</script>
 </body>
 </html>
