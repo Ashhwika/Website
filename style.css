@@ -9,10 +9,9 @@ body {
   background-color: #fff0f5;
   color: #333;
   scroll-behavior: smooth;
-  line-height: 1.6;
 }
 
-/* Navbar */
+/* Navbar - YOUR ORIGINAL */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -55,15 +54,13 @@ body {
   border-radius: 20px;
   text-decoration: none;
   transition: 0.3s;
-  font-weight: 500;
 }
 
 .insta-btn:hover {
   background: #ff85c2;
-  transform: translateY(-2px);
 }
 
-/* Hero Section */
+/* Hero Section - YOUR ORIGINAL */
 .hero {
   background: linear-gradient(135deg, #ffc0cb 0%, #ffb6c1 100%);
   height: 90vh;
@@ -73,129 +70,111 @@ body {
   text-align: center;
   color: white;
   padding: 0 1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1.5" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
-  font-weight: 700;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 .hero-content p {
-  font-size: 1.3rem;
-  margin-bottom: 2.5rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .cta-btn {
   background: white;
   color: #ff69b4;
-  padding: 1rem 2rem;
-  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  display: inline-block;
+  transition: 0.3s;
 }
 
 .cta-btn:hover {
   background: #ffe4e1;
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  transform: scale(1.05);
 }
 
-/* About Section */
+/* About Section - YOUR ORIGINAL */
 .about {
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   background-color: #fff;
   text-align: center;
 }
 
 .about h2 {
   color: #ff69b4;
-  margin-bottom: 1.5rem;
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-
-.about-content {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .about p {
-  margin-bottom: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
-/* Writing Section */
+/* WRITING SECTION - NEW */
 .writing {
-  padding: 5rem 2rem;
-  background: linear-gradient(135deg, #fff 0%, #fff8fb 100%);
+  padding: 4rem 2rem;
+  background-color: #fff0f5;
   text-align: center;
 }
 
 .writing h2 {
   color: #ff69b4;
   margin-bottom: 2rem;
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 2rem;
 }
 
 .writing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 .writing-item {
   background: white;
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
-  border-top: 4px solid #ffb6c1;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  border-top: 3px solid #ffb6c1;
 }
 
 .writing-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .writing-item h3 {
   color: #ff69b4;
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .writing-item p {
-  color: #666;
-  line-height: 1.7;
+  line-height: 1.6;
+  color: #555;
 }
 
-/* Achievements Section */
+.writing-item a {
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.writing-item a:hover {
+  text-decoration: underline;
+}
+
+/* ACHIEVEMENTS SECTION - NEW */
 .achievements {
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   background-color: #fff;
   text-align: center;
 }
@@ -203,120 +182,70 @@ body {
 .achievements h2 {
   color: #ff69b4;
   margin-bottom: 2rem;
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-
-.achievements-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.achievement-card {
-  background: linear-gradient(135deg, #ffb6c1 0%, #ff69b4 100%);
-  color: white;
-  padding: 2rem 1.5rem;
-  border-radius: 20px;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  box-shadow: 0 10px 30px rgba(255,182,193,0.3);
-}
-
-.achievement-card::before {
-  content: '🏆';
-  position: absolute;
   font-size: 2rem;
-  top: 1rem;
-  right: 1rem;
-  opacity: 0.8;
 }
 
-.achievement-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(255,182,193,0.4);
-}
-
-.achievement-card h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-}
-
-.achievement-card p {
-  opacity: 0.9;
-  font-size: 0.95rem;
-}
-
-/* Footer */
-footer {
-  background: linear-gradient(135deg, #ffb6c1 0%, #ff69b4 100%);
-  text-align: center;
-  padding: 3rem 2rem 2rem;
-  color: white;
-  position: relative;
-}
-
-footer::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #fff, #ffe4e1, #fff);
-}
-
-.footer-content {
+.achievements-list {
   max-width: 800px;
   margin: 0 auto;
+  text-align: left;
 }
 
-.footer-content p {
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.social-links a {
-  color: white;
-  font-size: 1.5rem;
+.achievement-item {
+  background: #fff0f5;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #ff69b4;
   transition: 0.3s;
 }
 
-.social-links a:hover {
-  color: #ffe4e1;
-  transform: translateY(-3px);
+.achievement-item:hover {
+  background: #ffe4e1;
+  transform: translateX(10px);
 }
 
-/* Responsive Design */
+.achievement-item h3 {
+  color: #ff69b4;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.achievement-item p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer - YOUR ORIGINAL */
+footer {
+  background: #ffb6c1;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive - YOUR ORIGINAL + ENHANCED */
 @media (max-width: 768px) {
-  .navbar {
-    padding: 1rem;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
   .nav-links {
     display: none;
   }
   
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   
-  .hero-content p {
-    font-size: 1.1rem;
+  .hero {
+    height: 80vh;
   }
   
   .about, .writing, .achievements {
@@ -324,27 +253,21 @@ footer::before {
   }
   
   .about h2, .writing h2, .achievements h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
-  .writing-grid, .achievements-grid {
+  .writing-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .hero {
-    height: 80vh;
-    padding: 0 0.5rem;
+  .navbar {
+    padding: 1rem;
   }
   
   .hero-content h1 {
-    font-size: 2rem;
-  }
-  
-  .cta-btn {
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
