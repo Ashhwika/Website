@@ -116,6 +116,53 @@ body {
   line-height: 1.6;
 }
 
+/* Add these AFTER your .about section and BEFORE footer */
+
+.writing {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.writing h2 {
+  color: #ff69b4;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.writing p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+
+.achievements {
+  padding: 4rem 2rem;
+  background-color: #fff0f5;
+  text-align: center;
+}
+
+.achievements h2 {
+  color: #ff69b4;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.achievements ul {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+}
+
+.achievements li {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 /* Footer */
 footer {
   background: #ffb6c1;
