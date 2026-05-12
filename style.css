@@ -52,8 +52,8 @@ body {
 }
 
 .insta-btn {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-  color: #f8fafc;
+  background: linear-gradient(135deg, #8b5cf6 0%, #659acf 100%);
+  color: #3e76ad;
   padding: 0.6rem 1.2rem;
   border-radius: 25px;
   text-decoration: none;
