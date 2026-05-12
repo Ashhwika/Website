@@ -116,27 +116,6 @@ body {
   line-height: 1.6;
 }
 
-/* ABOUT SECTION (homepage only) */ 
-.about 
-{ padding: 4rem 2rem; background-color: #fff; text-align: center; } 
-
-.about h2 
-{ color: #ff69b4; margin-bottom: 1rem; font-size: 2rem; } 
-
-.about p 
-{ max-width: 600px; margin: 0 auto; line-height: 1.6; } 
-
-/* GENERAL PAGE LAYOUT (ALL OTHER PAGES) */ section 
-{ padding: 4rem 2rem; max-width: 1000px; margin: auto; } 
-
-/* HEADINGS */ 
-h1 { font-size: 2.5rem; color: #ff69b4; margin-bottom: 1.5rem; } 
-
-/* CARD SYSTEM (USED IN ALL PAGES) */ 
-
-.CLASS
-{ background: white; padding: 1.5rem; margin: 1rem 0; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-
 /* Footer */
 footer {
   background: #ffb6c1;
