@@ -13,6 +13,7 @@ body {
 
 /* Navbar with Hamburger Menu */
 .navbar {
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,6 +83,7 @@ body {
 }
 
 .insta-btn {
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
   color: #f8fafc;
   padding: 0.6rem 1.2rem;
@@ -146,6 +148,7 @@ body {
 
 /* Hero Section */
 .hero {
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 50%, #3b82f6 100%);
   height: 10vh;
   display: flex;
@@ -184,6 +187,7 @@ body {
 }
 
 .cta-btn {
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   color: #1d4ed8;
   padding: 1rem 2rem;
@@ -203,6 +207,7 @@ body {
 
 /* About Section */
 .about {
+  font-family: 'Poppins', sans-serif;
   padding: 5rem 2rem;
   background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
   text-align: center;
@@ -225,6 +230,7 @@ body {
 
 /* Writing Section */
 .writing {
+  font-family: 'Poppins', sans-serif;
   padding: 5rem 2rem;
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
   text-align: center;
@@ -298,6 +304,7 @@ body {
 
 /* Achievements Section */
 .achievements {
+  font-family: 'Poppins', sans-serif;
   padding: 5rem 2rem;
   background: linear-gradient(135deg, #e2e8f0 0%, #f1f5f9 100%);
   text-align: center;
@@ -357,6 +364,7 @@ body {
 
 /* Footer */
 footer {
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%);
   text-align: center;
   padding: 3rem 2rem;
