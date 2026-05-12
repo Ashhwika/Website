@@ -1,34 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Ashhwika</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
-   <!-- Navigation Bar -->
+<body>
+  <!-- Navigation Bar -->
   <header>
     <nav class="navbar">
       <div class="logo">Ashhwika Soni</div>
-      <ul class="nav-links">
-   <li><a href="index.html">Home</a></li>
-   <li><a href="about.html">About</a></li>
-  <li><a href="achievements.html">Achievements</a></li>
-  <li><a href="writing.html">Writing</a></li>
-   <li><a href="Pre-Law.html">Pre-Law</a></li>
-   <li><a href="AshhwikaFoundation.html">Ashhwika Foundation</a></li>
+      
+      <!-- Hamburger Menu -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+        <li><a href="about.html" onclick="closeMenu()">About</a></li>
+        <li><a href="achievements.html" onclick="closeMenu()">Achievements</a></li>
+        <li><a href="writing.html" onclick="closeMenu()">Writing</a></li>
+        <li><a href="Pre-Law.html" onclick="closeMenu()">Pre-Law</a></li>
+        <li><a href="AshhwikaFoundation.html" onclick="closeMenu()">Ashhwika Foundation</a></li>
       </ul>
+      
       <a href="https://instagram.com/ashhwika" target="_blank" class="insta-btn">Follow 💕</a>
     </nav>
   </header>
-  
-<body>
-  <section id="about" class="about">
-    <h2>About Ashhwika</h2>
-    <p>
-       I'm cool af boiii
-    </p>
+
+  <!-- About Section with LinkedIn Embed -->
+  <section class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Ashhwika</h2>
+        <p>I'm cool af boiii</p>
+        <p>Check out my full professional profile below 👇</p>
+      </div>
+      
+      <!-- EMBEDDED LinkedIn Profile -->
+      <div class="linkedin-embed">
+        <!-- Replace YOUR_PROFILE_ID with your actual LinkedIn profile ID -->
+        <iframe 
+          src="https://www.linkedin.com/embed/feed/update/urn:li:share:YOUR_POST_ID" 
+          height="600" 
+          width="100%" 
+          frameborder="0" 
+          allowfullscreen=""
+          title="LinkedIn Post">
+        </iframe>
+        
+        <!-- OR use your full profile embed (better option) -->
+        <div class="profile-link">
+          <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" class="linkedin-btn">
+            View Full Profile → 
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <a href="index.html">Back Home</a>
+  <!-- Back Home Button -->
+  <div class="back-home">
+    <a href="index.html" class="back-btn">← Back Home</a>
+  </div>
+
+  <!-- JavaScript for Hamburger Menu -->
+  <script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    const hamburger = document.querySelector('.hamburger');
+    navLinks.classList.toggle('active');
+    hamburger.classList.toggle('active');
+  }
+
+  function closeMenu() {
+    const navLinks = document.getElementById('navLinks');
+    const hamburger = document.querySelector('.hamburger');
+    navLinks.classList.remove('active');
+    hamburger.classList.remove('active');
+  }
+  </script>
 </body>
 </html>
