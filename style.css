@@ -60,7 +60,7 @@ body {
   background: #ff85c2;
 }
 
-/* Hero Section */
+/* Home Section */
 .hero {
   background: linear-gradient(135deg, #ffc0cb 0%, #ffb6c1 100%);
   height: 90vh;
@@ -117,14 +117,8 @@ body {
 /* writing section */
 
 .writing {
-  background: linear-gradient(135deg, #ffc0cb 0%, #ffb6c1 100%);
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 0 1rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .writing h2 {
@@ -140,14 +134,7 @@ body {
 }
 
 .achievements{
-  background: linear-gradient(135deg, #ffc0cb 0%, #ffb6c1 100%);
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 0 1rem;
+  
 }
 
 
